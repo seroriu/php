@@ -2,7 +2,7 @@
 session_start();
 ini_set("display_errors", 1);
 error_reporting(E_ALL);
-$pdo = new PDO('mysql:host=localhost; dbname=mydb; charset=utf8','root','Nejimakidori2021');
+$pdo = new PDO('mysql:host=localhost; dbname=mydb; charset=utf8','root','root');
 
 
 if(isset($_SESSION['id'])) {
